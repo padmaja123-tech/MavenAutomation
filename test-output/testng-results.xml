@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41477" started-at="2021-09-26T21:35:14 EDT" finished-at="2021-09-26T21:35:55 EDT">
+    <groups>
+      <group name="regression">
+        <method signature="TNG_003.amazon()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_003@58c1670b]" name="amazon" class="com.project.July7_30AM_Maven_SeleniumBatch.TNG_003"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TNG_003.amazon()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_003@58c1670b]" name="amazon" class="com.project.July7_30AM_Maven_SeleniumBatch.TNG_003"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="41477" started-at="2021-09-26T21:35:14 EDT" finished-at="2021-09-26T21:35:55 EDT">
+      <class name="com.project.July7_30AM_Maven_SeleniumBatch.TNG_003">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_003@58c1670b]" name="beforeMethod" is-config="true" duration-ms="12" started-at="2021-09-26T21:35:14 EDT" finished-at="2021-09-26T21:35:14 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4930539b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="startProcess(java.lang.String)[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_003@58c1670b]" name="startProcess" is-config="true" duration-ms="6837" started-at="2021-09-26T21:35:14 EDT" finished-at="2021-09-26T21:35:21 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startProcess -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_003@58c1670b]" name="amazon" duration-ms="33567" started-at="2021-09-26T21:35:21 EDT" finished-at="2021-09-26T21:35:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="endProcess()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_003@58c1670b]" name="endProcess" is-config="true" duration-ms="1002" started-at="2021-09-26T21:35:54 EDT" finished-at="2021-09-26T21:35:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endProcess -->
+      </class> <!-- com.project.July7_30AM_Maven_SeleniumBatch.TNG_003 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
